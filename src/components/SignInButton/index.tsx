@@ -13,8 +13,6 @@ type User = {
 const SignInButton: React.FC = () => {
   const [session] = useSession()
 
-  console.log(session)
-
   return session ? (
     <button
       type="button"
